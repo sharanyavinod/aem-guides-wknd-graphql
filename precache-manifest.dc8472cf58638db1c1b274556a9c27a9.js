@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "509b56f0339820ea1deedbfcbbb65c99",
+    "revision": "a5336e0c045fc1e8f2fb5053970e4cb1",
     "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/index.html"
   },
   {
-    "revision": "4d56d04f55277b12a724",
+    "revision": "496f55c061c8c369efd2",
     "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/css/main.f6a87e45.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.02c05878.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4d56d04f55277b12a724",
-    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.6c6748d4.chunk.js"
+    "revision": "496f55c061c8c369efd2",
+    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.d8fe672c.chunk.js"
   },
   {
     "revision": "0136f7950a533f8fbcf0",

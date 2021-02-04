@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/css/main.f6a87e45.chunk.css",
-    "main.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.6c6748d4.chunk.js",
-    "main.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.6c6748d4.chunk.js.map",
+    "main.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.d8fe672c.chunk.js",
+    "main.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.d8fe672c.chunk.js.map",
     "runtime-main.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/runtime-main.38163078.js",
     "runtime-main.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/runtime-main.38163078.js.map",
     "static/js/2.02c05878.chunk.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.02c05878.chunk.js",
     "static/js/2.02c05878.chunk.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.02c05878.chunk.js.map",
     "index.html": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/index.html",
-    "precache-manifest.b1665424bbd389f7a8f258eaea27ce00.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/precache-manifest.b1665424bbd389f7a8f258eaea27ce00.js",
+    "precache-manifest.dc8472cf58638db1c1b274556a9c27a9.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/precache-manifest.dc8472cf58638db1c1b274556a9c27a9.js",
     "service-worker.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/service-worker.js",
     "static/css/main.f6a87e45.chunk.css.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/css/main.f6a87e45.chunk.css.map",
     "static/js/2.02c05878.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.02c05878.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.38163078.js",
     "static/js/2.02c05878.chunk.js",
     "static/css/main.f6a87e45.chunk.css",
-    "static/js/main.6c6748d4.chunk.js"
+    "static/js/main.d8fe672c.chunk.js"
   ]
 }
