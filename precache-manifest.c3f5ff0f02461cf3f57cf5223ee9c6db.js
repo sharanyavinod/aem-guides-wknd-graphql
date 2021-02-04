@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00c4ae48a610b36d892b5ea655b0a3e3",
+    "revision": "e32192344a693897cd020afed2ef36bf",
     "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/index.html"
   },
   {
-    "revision": "180c575d184e713113c2",
+    "revision": "f18604fcf4a9ba304ba9",
     "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/css/main.f6a87e45.chunk.css"
   },
   {
-    "revision": "226bc05f6ed6604cedac",
-    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.a6f4c821.chunk.js"
+    "revision": "9af1c353fb028fdd2f18",
+    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.02c05878.chunk.js"
   },
   {
     "revision": "b8f7b7e5695f0eba4891950a9e5471ce",
-    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.a6f4c821.chunk.js.LICENSE.txt"
+    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.02c05878.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "180c575d184e713113c2",
-    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.0067405a.chunk.js"
+    "revision": "f18604fcf4a9ba304ba9",
+    "url": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.ea46497d.chunk.js"
   },
   {
     "revision": "0136f7950a533f8fbcf0",
