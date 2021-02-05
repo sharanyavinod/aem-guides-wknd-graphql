@@ -1,36 +1,25 @@
 {
   "files": {
     "main.css": "https://sharanyavinod.github.io/static/css/main.f6a87e45.chunk.css",
-    "main.js": "https://sharanyavinod.github.io/static/js/main.03e52904.chunk.js",
-    "main.js.map": "https://sharanyavinod.github.io/static/js/main.03e52904.chunk.js.map",
+    "main.js": "https://sharanyavinod.github.io/static/js/main.668cc057.chunk.js",
+    "main.js.map": "https://sharanyavinod.github.io/static/js/main.668cc057.chunk.js.map",
     "runtime-main.js": "https://sharanyavinod.github.io/static/js/runtime-main.676b6cc2.js",
     "runtime-main.js.map": "https://sharanyavinod.github.io/static/js/runtime-main.676b6cc2.js.map",
-    "static/js/2.3e88aa1f.chunk.js": "https://sharanyavinod.github.io/static/js/2.3e88aa1f.chunk.js",
-    "static/js/2.3e88aa1f.chunk.js.map": "https://sharanyavinod.github.io/static/js/2.3e88aa1f.chunk.js.map",
+    "static/js/2.02c05878.chunk.js": "https://sharanyavinod.github.io/static/js/2.02c05878.chunk.js",
+    "static/js/2.02c05878.chunk.js.map": "https://sharanyavinod.github.io/static/js/2.02c05878.chunk.js.map",
     "index.html": "https://sharanyavinod.github.io/index.html",
-    "precache-manifest.7ca0a579c9de52a6c0b5f81cbb7141e5.js": "https://sharanyavinod.github.io/precache-manifest.7ca0a579c9de52a6c0b5f81cbb7141e5.js",
+    "precache-manifest.89e5b28f040943dcacae3630cd4b32d0.js": "https://sharanyavinod.github.io/precache-manifest.89e5b28f040943dcacae3630cd4b32d0.js",
     "service-worker.js": "https://sharanyavinod.github.io/service-worker.js",
     "static/css/main.f6a87e45.chunk.css.map": "https://sharanyavinod.github.io/static/css/main.f6a87e45.chunk.css.map",
-    "static/js/2.3e88aa1f.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/static/js/2.3e88aa1f.chunk.js.LICENSE.txt",
-    "static/media/AdobeStock_185234795.jpeg": "https://sharanyavinod.github.io/static/media/AdobeStock_185234795.a87e70f9.jpeg",
-    "static/media/AdobeStock_257541512.jpeg": "https://sharanyavinod.github.io/static/media/AdobeStock_257541512.3be9e083.jpeg",
-    "static/media/AdobeStock_261097343.jpeg": "https://sharanyavinod.github.io/static/media/AdobeStock_261097343.909ff615.jpeg",
-    "static/media/AdobeStock_270835979.jpg": "https://sharanyavinod.github.io/static/media/AdobeStock_270835979.50aa0660.jpg",
-    "static/media/AdobeStock_280313729.jpg": "https://sharanyavinod.github.io/static/media/AdobeStock_280313729.fae6d823.jpg",
-    "static/media/AdobeStock_291339093.jpeg": "https://sharanyavinod.github.io/static/media/AdobeStock_291339093.cf13b67b.jpeg",
-    "static/media/bali-surf-camp.jpg": "https://sharanyavinod.github.io/static/media/bali-surf-camp.97443290.jpg",
-    "static/media/beervana-portland.jpeg": "https://sharanyavinod.github.io/static/media/beervana-portland.24e09531.jpeg",
-    "static/media/climbing-new-zealand.jpeg": "https://sharanyavinod.github.io/static/media/climbing-new-zealand.9b288950.jpeg",
-    "static/media/colorado-rock-climbing.jpg": "https://sharanyavinod.github.io/static/media/colorado-rock-climbing.40e74f55.jpg",
-    "static/media/cycling-southern-utah.jpg": "https://sharanyavinod.github.io/static/media/cycling-southern-utah.05eb318f.jpg",
+    "static/js/2.02c05878.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/static/js/2.02c05878.chunk.js.LICENSE.txt",
     "static/media/icon-close.svg": "https://sharanyavinod.github.io/static/media/icon-close.f227c489.svg",
-    "static/media/surfing_5.jpg": "https://sharanyavinod.github.io/static/media/surfing_5.7133b02f.jpg",
+    "static/media/icon-loading.svg": "https://sharanyavinod.github.io/static/media/icon-loading.200bc7ed.svg",
     "static/media/wknd-logo-dk.svg": "https://sharanyavinod.github.io/static/media/wknd-logo-dk.36593320.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.676b6cc2.js",
-    "static/js/2.3e88aa1f.chunk.js",
+    "static/js/2.02c05878.chunk.js",
     "static/css/main.f6a87e45.chunk.css",
-    "static/js/main.03e52904.chunk.js"
+    "static/js/main.668cc057.chunk.js"
   ]
 }
