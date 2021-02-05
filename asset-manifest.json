@@ -1,25 +1,41 @@
 {
   "files": {
     "main.css": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/css/main.f6a87e45.chunk.css",
-    "main.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.e1e07468.chunk.js",
-    "main.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.e1e07468.chunk.js.map",
+    "main.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.310f5524.chunk.js",
+    "main.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/main.310f5524.chunk.js.map",
     "runtime-main.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/runtime-main.38163078.js",
     "runtime-main.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/runtime-main.38163078.js.map",
     "static/js/2.557dca60.chunk.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.557dca60.chunk.js",
     "static/js/2.557dca60.chunk.js.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.557dca60.chunk.js.map",
     "index.html": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/index.html",
-    "precache-manifest.dafaa41766b499aed43a69642a7df214.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/precache-manifest.dafaa41766b499aed43a69642a7df214.js",
+    "precache-manifest.5e925d44bcf4f466469b464a37e558f0.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/precache-manifest.5e925d44bcf4f466469b464a37e558f0.js",
     "service-worker.js": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/service-worker.js",
     "static/css/main.f6a87e45.chunk.css.map": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/css/main.f6a87e45.chunk.css.map",
     "static/js/2.557dca60.chunk.js.LICENSE.txt": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/js/2.557dca60.chunk.js.LICENSE.txt",
+    "static/media/AdobeStock_122578479.jpeg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_122578479.7f5a3097.jpeg",
+    "static/media/AdobeStock_151584995.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_151584995.3e880805.jpg",
+    "static/media/AdobeStock_184591344.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_184591344.c9b4ca11.jpg",
+    "static/media/AdobeStock_185234795.jpeg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_185234795.a87e70f9.jpeg",
+    "static/media/AdobeStock_196967522.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_196967522.97c79c4d.jpg",
+    "static/media/AdobeStock_257541512.jpeg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_257541512.3be9e083.jpeg",
+    "static/media/AdobeStock_261097343.jpeg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_261097343.909ff615.jpeg",
+    "static/media/AdobeStock_270835979.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_270835979.50aa0660.jpg",
+    "static/media/AdobeStock_280313729.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_280313729.fae6d823.jpg",
+    "static/media/AdobeStock_291339093.jpeg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/AdobeStock_291339093.cf13b67b.jpeg",
+    "static/media/bali-surf-camp.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/bali-surf-camp.97443290.jpg",
+    "static/media/beervana-portland.jpeg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/beervana-portland.24e09531.jpeg",
+    "static/media/climbing-new-zealand.jpeg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/climbing-new-zealand.9b288950.jpeg",
+    "static/media/colorado-rock-climbing.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/colorado-rock-climbing.40e74f55.jpg",
+    "static/media/cycling-southern-utah.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/cycling-southern-utah.05eb318f.jpg",
     "static/media/icon-close.svg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/icon-close.f227c489.svg",
     "static/media/icon-loading.svg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/icon-loading.200bc7ed.svg",
+    "static/media/surfing_5.jpg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/surfing_5.7133b02f.jpg",
     "static/media/wknd-logo-dk.svg": "https://sharanyavinod.github.io/aem-guides-wknd-graphql/static/media/wknd-logo-dk.36593320.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.38163078.js",
     "static/js/2.557dca60.chunk.js",
     "static/css/main.f6a87e45.chunk.css",
-    "static/js/main.e1e07468.chunk.js"
+    "static/js/main.310f5524.chunk.js"
   ]
 }
