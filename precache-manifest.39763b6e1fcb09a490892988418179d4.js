@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99bbe55f26947a09164bccb6b7e9e449",
+    "revision": "23b15fb09c8df0d622b359691f420a6c",
     "url": "https://sharanyavinod.github.io/index.html"
   },
   {
-    "revision": "b3d71deab85915b7f2d9",
+    "revision": "ffce7786eca14dc46eac",
     "url": "https://sharanyavinod.github.io/static/css/main.f6a87e45.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://sharanyavinod.github.io/static/js/2.4e37e643.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3d71deab85915b7f2d9",
-    "url": "https://sharanyavinod.github.io/static/js/main.ecc5df7c.chunk.js"
+    "revision": "ffce7786eca14dc46eac",
+    "url": "https://sharanyavinod.github.io/static/js/main.cded8a98.chunk.js"
   },
   {
     "revision": "51216d1de549cdc76bf2",
