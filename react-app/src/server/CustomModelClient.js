@@ -16,7 +16,7 @@
 import { ModelClient } from '@adobe/aem-spa-page-model-manager';
 
 /**
- * Custom ModelClient meant to demonstrate how to customize the request sent to the remote server
+ * Custom ModelClient meant to demonstrate how to customize the request sent to the AEM instance
  */
 export class CustomModelClient extends ModelClient {
 

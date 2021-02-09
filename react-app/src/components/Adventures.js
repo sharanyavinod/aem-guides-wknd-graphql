@@ -6,32 +6,19 @@ NOTICE: Adobe permits you to use, modify, and distribute this file in
 accordance with the terms of the Adobe license agreement accompanying
 it.
 */
-import React, { useState } from 'react';
+import React from 'react';
 import {Link} from 'react-router-dom';
-import useGraphQL from '../api/useGraphQL';
-import Error from './Error';
-import Loading from './Loading';
+// import useGraphQL from '../api/useGraphQL';
+// import Error from './Error';
+// import Loading from './Loading';
 import './Adventures.scss';
 
+import { ADVENTURELIST } from '../mocks/adventures'
 
 function Adventures() {
-
-    //Use React Hooks to set the initial GraphQL query to a variable named `query`
-    const [query, setQuery] = useState(allAdventuresQuery);
-    //Use a custom React Hook to execute the GraphQL query
-    const { data, errorMessage } = useGraphQL(query);
-
-    //If there is an error with the GraphQL query
-    if(errorMessage) return <Error errorMessage={errorMessage} />;
-
-    //If data is null then return a loading state...
-    if(!data) return <Loading />;
-
+    const { data } = ADVENTURELIST;
     return (
         <div className="adventures">
-          <button onClick={() => setQuery(allAdventuresQuery)}>All</button>
-          <button onClick={() => setQuery(filterQuery('Camping'))}>Camping</button>
-          <button onClick={() => setQuery(filterQuery('Surfing'))}>Surfing</button>
           <ul className="adventure-items">
             {
                 //Iterate over the returned data items from the query
@@ -48,18 +35,13 @@ function Adventures() {
 
 // Render individual Adventure item
 function AdventureItem(props) {
-  const { _path: adventurePath } = props;
-
-  let adventureName = adventurePath.split("/");
-  adventureName = adventureName[adventureName.length - 1];
-
+  const { _path } = props;
   return (
         <li className="adventure-item">
           <Link to={{
-              pathname:`/adventures/${adventureName}`,
-              data: adventurePath
+              pathname:`/adventures/${_path}`
           }}>
-            <img className="adventure-item-image" src={props.adventurePrimaryImage._path}
+            <img className="adventure-item-image" src={require("../assets/" + props.adventurePrimaryImage._path)}
                  alt={props.adventureTitle} />
           </Link>
           <div className="adventure-item-length-price">
@@ -70,64 +52,5 @@ function AdventureItem(props) {
       </li>
       );
 }
-
-/**
- * Query for all Adventures
- */
-const allAdventuresQuery = `
-  {
-    adventureList {
-      items {
-        _path
-        adventureTitle
-        adventurePrice
-        adventureTripLength
-        adventurePrimaryImage {
-          ... on ImageRef {
-            _path
-            mimeType
-            width
-            height
-          }
-        }
-      }
-    }
-  }
-`;
-
-/**
- * Returns a query for Adventures filtered by activity
- */
-function filterQuery(activity) {
-  return `
-    {
-      adventureList (filter: {
-        adventureActivity: {
-          _expressions: [
-            {
-              value: "${activity}"
-            }
-          ]
-        }
-      }){
-        items {
-          _path
-        adventureTitle
-        adventurePrice
-        adventureTripLength
-        adventurePrimaryImage {
-          ... on ImageRef {
-            _path
-            mimeType
-            width
-            height
-          }
-        }
-      }
-    }
-  }
-  `;
-}
-
 
 export default Adventures;

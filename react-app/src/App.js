@@ -14,16 +14,17 @@ import { PathUtils } from '@adobe/aem-spa-page-model-manager';
 
 import AdventureDetail from './components/AdventureDetail';
 import Home from './components/Home';
+import './components/import-components';
 
 import './App.scss';
 
-const { REACT_APP_HOST_URI, REACT_APP_AEM_PROJECT_ROOT } = process.env;
+const { REACT_APP_AEM_HOST_URI, REACT_APP_AEM_PROJECT_ROOT } = process.env;
 
 function App() {
   // Transform routing path to accomodate for AEM specific paths
   // path updated only when opened within AEM editor
   const transformRoute = (path) => {
-    const aemPathRegex = PathUtils.toAEMPath(path, REACT_APP_HOST_URI, REACT_APP_AEM_PROJECT_ROOT);
+    const aemPathRegex = PathUtils.toAEMPath(path, REACT_APP_AEM_HOST_URI, REACT_APP_AEM_PROJECT_ROOT);
     return aemPathRegex;
   };
 

@@ -9,11 +9,9 @@ it.
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { ModelManager } from "@adobe/aem-spa-page-model-manager";
+import { ModelClient, ModelManager } from "@adobe/aem-spa-page-model-manager";
 
-import { CustomModelClient } from './server/CustomModelClient';
-
-const modelClient = new CustomModelClient(process.env.REACT_APP_HOST_URI);
+const modelClient = new ModelClient(process.env.REACT_APP_AEM_HOST_URI);
 ModelManager.initializeAsync({
     modelClient
 });

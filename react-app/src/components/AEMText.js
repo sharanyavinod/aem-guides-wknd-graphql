@@ -1,17 +1,22 @@
-import { withMappable, MapTo } from '@adobe/aem-react-editable-components';
-import { TextV2, TextV2IsEmptyFn } from "@adobe/aem-core-components-react-base";
+import React from 'react';
+import { withMappable } from '@adobe/aem-react-editable-components';
 
-/**
- * Default Edit configuration for the Text component that interact with the Core Text component and sub-types
- *
- * @type EditConfig
- */
-const TextEditConfig = {
-  emptyLabel: 'Text',
-  isEmpty: TextV2IsEmptyFn,
-  resourceType: 'wknd-spa/components/text'
+export const TextEditConfig = {
+    emptyLabel: 'Text',
+    isEmpty: function(props) {
+        return !props || !props.text || props.text.trim().length < 1;
+    },
+    resourceType: 'wknd-spa/components/text'
 };
 
-export const AEMText = withMappable(TextV2, TextEditConfig);
+export const Text = ({ cqPath, richText, text }) => {
+    const richTextContent = () => (
+        <div className="aem_text"
+            id={cqPath.substr(cqPath.lastIndexOf('/') + 1)}
+            data-rte-editelement
+            dangerouslySetInnerHTML={{__html: text}} />
+    );
+    return richText ? richTextContent() : (<div className="aem_text">{text}</div>);
+};
 
-MapTo('wknd-spa/components/text')(TextV2, TextEditConfig);
+export const AEMText = withMappable(Text, TextEditConfig);

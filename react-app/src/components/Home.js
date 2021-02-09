@@ -10,9 +10,9 @@ function Home() {
   return (
     <div className="Home">
       <h2>Current Adventures</h2>
+      <Adventures />
       <AEMPage
         pagePath='/content/wknd-spa/home' />
-      <Adventures />
     </div>
   );
 }
