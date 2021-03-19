@@ -1,22 +1,25 @@
 import React from 'react';
 
 import Adventures from './Adventures';
-import AEMPage from './AEMPage';
-import { AEMText } from './AEMText';
+import ResponsiveGrid from './ResponsiveGrid';
+import { VirtualContainer } from './VirtualContainer';
 
 /***
  * Displays a grid of current adventures
  */
 function Home() {
+    const comps = ["/libs/wcm/foundation/components/responsivegrid", "/apps/mysitetest/components/image", "/apps/mysitetest/components/text"];
   return (
     <div className="Home">
       <h2>Current Adventures</h2>
-      <Adventures />
-      <AEMPage
-        pagePath='/content/wknd-spa/home' />
-      <AEMText
-        pagePath='/content/wknd-spa/home'
-        itemPath='text20'/>
+      <ResponsiveGrid
+          pagePath='/content/mysitetest/us/en/home'
+          itemPath='root/responsivegrid' />
+      <VirtualContainer
+          pagePath='/content/mysitetest/us/en/home'
+          itemPath='test'
+          className='cq-Overlay cq-Overlay--component cq-draggable cq-droptarget'
+          allowedComponents={comps} />
     </div>
   );
 }
