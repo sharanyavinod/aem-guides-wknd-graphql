@@ -9,14 +9,17 @@ export const TextEditConfig = {
     resourceType: 'wknd-spa/components/text'
 };
 
-export const Text = ({ cqPath, richText, text }) => {
+export const Text = ({ cqPath, richText, text, tag }) => {
     const richTextContent = () => (
         <div className="aem_text"
             id={cqPath.substr(cqPath.lastIndexOf('/') + 1)}
             data-rte-editelement
             dangerouslySetInnerHTML={{__html: text}} />
     );
-    return richText ? richTextContent() : (<div className="aem_text">{text}</div>);
+
+    const element = React.createElement(tag || 'div', { className: 'aem_text' }, text);
+
+    return richText ? richTextContent() : element;
 };
 
 export const AEMText = withMappable(Text, TextEditConfig);

@@ -19,6 +19,7 @@ export default class Image extends Component {
                 className="Image-src"
                 src={REACT_APP_AEM_HOST_URI + this.props.src}
                 alt={this.props.alt}
+                height={this.props.height ? this.props.height : 900}
                 title={this.props.title ? this.props.title : this.props.alt} />;
     }
 
