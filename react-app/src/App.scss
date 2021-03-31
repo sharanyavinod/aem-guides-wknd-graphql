@@ -150,3 +150,11 @@ button {
   left: 0;
   text-align: center;
 }
+
+//Custom CSS for making images responsive
+//To be moved to a common location
+.cmp-image__image {
+   margin: 1rem 0;
+   width: 100%;
+   border: 0;
+}
