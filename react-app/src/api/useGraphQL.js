@@ -8,7 +8,7 @@ it.
 */
 import {useState, useEffect} from 'react';
 
-const { REACT_APP_HOST_URI, REACT_APP_GRAPHQL_ENDPOINT } = process.env;
+const { REACT_APP_HOST_URI, REACT_APP_GRAPHQL_ENDPOINT, REACT_APP_AUTHORIZATION } = process.env;
 
 /*
     Custom React Hook to perform a GraphQL query
@@ -26,9 +26,7 @@ function useGraphQL(query, skipCall) {
             REACT_APP_HOST_URI + REACT_APP_GRAPHQL_ENDPOINT,
             {
                 method: 'POST',
-                headers: {
-                'Content-Type': 'application/json'
-                },
+                headers: getHttpHeaders(),
                 body: JSON.stringify({query}),
             }
             ).then(response => response.json())
@@ -58,4 +56,15 @@ function useGraphQL(query, skipCall) {
 function mapErrors(errors) {
     return errors.map((error) => error.message).join(",");
 }
+
+function getHttpHeaders() {
+    // set headers and include authorization if authorization set
+    let httpHeaders = new Headers();
+    httpHeaders.append('Content-Type', 'application/json');
+    if(REACT_APP_AUTHORIZATION) {
+        httpHeaders.append('Authorization', 'Basic ' + btoa(REACT_APP_AUTHORIZATION))
+    }
+    return httpHeaders;
+}
+
 export default useGraphQL
