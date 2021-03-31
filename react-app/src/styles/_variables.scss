@@ -37,11 +37,11 @@ $font-size-large:         24px;
 $font-size-xlarge:        48px;
 
 $font-size-h1:            40px;
-$font-size-h2:            36px; 
-$font-size-h3:            24px; 
-$font-size-h4:            16px; 
+$font-size-h2:            36px;
+$font-size-h3:            24px;
+$font-size-h4:            16px;
 $font-size-h5:            14px;
-$font-size-h6:            10px; 
+$font-size-h6:            10px;
 
 $font-weight-normal:     normal;
 $font-weight-bold:       600;
@@ -60,8 +60,25 @@ $link-color:                $blue;
 $max-width: 1024px;
 
 // Spacing
-$gutter-padding: 12px; 
+$gutter-padding: 12px;
 
 // Breakpoints
 $mobile-breakpoint: 768px;
 $tablet-breakpoint: 1024px;
+
+
+//== Font
+
+$font-family:           "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-size:             16px;
+$font-height:           1.5;
+
+//== Color
+
+$color-foreground:      #202020;
+$color-background:      #FFFFFF;
+$color-link:            #2020E0;
+
+//== Grid
+
+$max_col: 12;

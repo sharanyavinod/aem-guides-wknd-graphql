@@ -8,7 +8,6 @@ it.
 */
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import logo from './images/wknd-logo-dk.svg';
 
 import { PathUtils } from '@adobe/aem-spa-page-model-manager';
 
@@ -17,7 +16,9 @@ import Home from './components/Home';
 
 import './App.scss';
 
-const { REACT_APP_HOST_URI, REACT_APP_AEM_PROJECT_ROOT } = process.env;
+const {
+    REACT_APP_HOST_URI, REACT_APP_AEM_PROJECT_ROOT, REACT_APP_PUBLIC_URL
+} = process.env;
 
 function App() {
   // Transform routing path to accomodate for AEM specific paths
@@ -31,7 +32,7 @@ function App() {
     <Router>
       <div className="App">
         <header>
-          <img src={logo} className="logo" alt="WKND Logo"/>
+          <img src={REACT_APP_PUBLIC_URL + '/wknd-logo-dk.svg'} className="logo" alt="WKND Logo"/>
           <hr />
         </header>
       <Switch>
