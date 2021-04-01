@@ -9,12 +9,13 @@ it.
 import React, { useState, useEffect } from 'react';
 import { withRouter, Link} from "react-router-dom";
 import useGraphQL from '../api/useGraphQL';
-import backIcon from '../images/icon-close.svg';
 import Error from './Error';
 import Loading from './Loading';
 import './AdventureDetail.scss';
 import { AEMText } from './AEMText';
 import Image from './Image';
+
+const { REACT_APP_PUBLIC_URL } = process.env;
 
 function AdventureDetail(props) {
     const [adventurePath, setAdventurePath] = useState(props.location?.data);
@@ -50,7 +51,7 @@ function AdventureDetail(props) {
     return (
         <div className="adventure-detail">
           <Link className="adventure-detail-close-button" to={"/home"}>
-            <img className="Backbutton-icon" src={backIcon} alt="Return" />
+            <img className="Backbutton-icon" src={REACT_APP_PUBLIC_URL + '/icon-close.svg'} alt="Return" />
           </Link>
           <h1 className="adventure-detail-title">{adventureData.adventureTitle}</h1>
           <AEMText

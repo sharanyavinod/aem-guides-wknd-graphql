@@ -1,5 +1,5 @@
 import React from 'react';
-import { withMappable, MapTo } from '@adobe/aem-react-editable-components';
+import { withMappable } from '@adobe/aem-react-editable-components';
 
 export const TextEditConfig = {
     emptyLabel: 'Text',
@@ -21,4 +21,4 @@ export const Text = ({ cqPath, richText, text }) => {
 
 export const AEMText = withMappable(Text, TextEditConfig);
 
-MapTo('wknd-spa/components/text')(Text, TextEditConfig);
+// MapTo('wknd-spa/components/text')(Text, TextEditConfig);

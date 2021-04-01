@@ -13,6 +13,8 @@ import { ModelManager } from "@adobe/aem-spa-page-model-manager";
 
 import { CustomModelClient } from './server/CustomModelClient';
 
+import './components/core-components/AEMComponents';
+
 const { REACT_APP_HOST_URI, REACT_APP_AUTHORIZATION } = process.env;
 
 const modelClient = new CustomModelClient(REACT_APP_HOST_URI, REACT_APP_AUTHORIZATION);

@@ -8,7 +8,8 @@
         jcr:primaryType="cq:PageContent"
         jcr:title="WKND Sites Project Home Page"
         sling:resourceType="wknd-spa/components/page"
-        remoteSPAUrl="http://localhost:3000">
+        remoteSPAUrl="http://localhost:3000"
+        sling:vanityPath="/home">
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wcm/foundation/components/responsivegrid">

@@ -7,13 +7,14 @@ accordance with the terms of the Adobe license agreement accompanying
 it.
 */
 import React, {Component} from 'react';
-import loadingIcon from '../images/icon-loading.svg';
+
+const { REACT_APP_PUBLIC_URL } = process.env;
 
 class Loading extends Component {
 
     render() {
         return (<div className="loading">
-              <img src={loadingIcon} alt="Loading..." />
+              <img src={REACT_APP_PUBLIC_URL + '/icon-loading.svg'} alt="Loading..." />
           </div>);
     }
 }
